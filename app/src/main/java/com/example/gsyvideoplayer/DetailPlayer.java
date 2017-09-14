@@ -66,7 +66,6 @@ public class DetailPlayer extends AppCompatActivity {
                 toNormal();
             }
         });
-
     }
 
     @Override
@@ -131,5 +130,4 @@ public class DetailPlayer extends AppCompatActivity {
         detailPlayer.getTitleTextView().setText("测试视频");
         detailPlayer.getBackButton().setVisibility(View.VISIBLE);
     }
-
 }
